@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_with	tests		# perform "make test"
 
 %define		pdir	Term
 %define		pnam	ANSIMenu
@@ -9,7 +9,7 @@ Summary:	Term::ANSIMenu - An infrastructure for creating menus in ANSI capable t
 #Summary(pl.UTF-8):	
 Name:		perl-Term-ANSIMenu
 Version:	0.02
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
