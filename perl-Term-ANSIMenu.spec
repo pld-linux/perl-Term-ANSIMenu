@@ -4,7 +4,6 @@
 
 %define		pdir	Term
 %define		pnam	ANSIMenu
-%include	/usr/lib/rpm/macros.perl
 Summary:	Term::ANSIMenu - An infrastructure for creating menus in ANSI capable terminals
 #Summary(pl.UTF-8):	
 Name:		perl-Term-ANSIMenu
